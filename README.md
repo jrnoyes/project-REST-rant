@@ -5,11 +5,8 @@ REST-Rant is an app where users can review restaurants.
 ## INTRO
 [Read this article]()
 
-| Syntax | Description | 
-| ----------- | ----------- | 
-| Header | Title | 
-| Paragraph | Text |
 
+## Routes 
 
 | Method | Path | Purpose |
 | ------ | ------------------------------------- | ----------------------------- |
@@ -23,3 +20,16 @@ REST-Rant is an app where users can review restaurants.
 | DELETE | `/places/:id` | Delete a place |
 | POST | `/places/:id/rant` | Add rant to a place |
 | DELETE | `/places/:id/rant/:rantId` | Delete a rant |
+
+## Database
+
+**places** 
+
+| Field | Type |
+| ---------- | ------------ |
+| _id | Object ID |
+| name | String |
+| city | String |
+| state | String |
+| cuisines | String |
+| pic | String |
